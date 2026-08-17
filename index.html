@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Katie Victoria Books | Author of Romantic Fiction</title>
     <style>
-        /* Modern, elegant styling matching your book aesthetic */
+        /* Re-themed specifically to match the new dark navy & silver banner */
         body {
             font-family: 'Georgia', serif;
             margin: 0;
             padding: 0;
-            background-color: #0B2540; /* Deep, romantic dark background */
-            color: #D8C9B8;
+            background-color: #020d22; /* Matches the deep navy bottom of your new banner */
+            color: #e2e8f0; /* Soft light silver-white text */
             text-align: center;
         }
         .banner {
@@ -20,22 +20,17 @@
             height: auto;
             display: block;
             margin: 0 auto;
-            box-shadow: none;
+            box-shadow: none; /* Removed to completely erase the white line */
         }
         .container {
             max-width: 900px;
             margin: 0 auto;
-            padding: 40px 20px;
+            padding: 50px 20px;
         }
         h1, h2, h3 {
-            color: #F0C68A; /* Elegant gold accents matching your banner logo */
+            color: #8ba3c7; /* Elegant silver-blue accent color matching your logo text */
             letter-spacing: 2px;
-        }
-        .tagline {
-            font-style: italic;
-            font-size: 1.2rem;
-            color: #D8C9B8;
-            margin-bottom: 50px;
+            font-weight: normal;
         }
         /* Book Layout Container */
         .books-grid {
@@ -45,78 +40,81 @@
             margin: 40px 0;
         }
         .book-card {
-            background-color: #1e1522;
-            border: 1px solid #3d2a45;
+            background-color: #061633; /* Slightly lighter navy to make the cards pop */
+            border: 1px solid #14284f;
             border-radius: 8px;
-            padding: 20px;
+            padding: 25px;
             width: 40%;
             min-width: 280px;
             margin-bottom: 30px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.4);
         }
         .book-placeholder {
             width: 180px;
             height: 270px;
-            background: linear-gradient(45deg, #2d1f34, #4a3254);
+            background: linear-gradient(45deg, #091a3a, #162c54);
             margin: 0 auto 20px;
             border-radius: 4px;
             display: flex;
             align-items: center;
             justify-content: center;
-            color: #dfb76c;
+            color: #8ba3c7;
             font-weight: bold;
-            border: 1px solid #dfb76c;
+            border: 1px solid #14284f;
         }
         .btn {
             display: inline-block;
-            background-color: #dfb76c;
-            color: #120c14;
-            padding: 10px 20px;
+            background-color: #8ba3c7; /* Silver-blue button */
+            color: #020d22; /* Dark text inside button for high contrast */
+            padding: 12px 24px;
             text-decoration: none;
             font-weight: bold;
             border-radius: 4px;
             transition: 0.3s;
             margin-top: 15px;
+            letter-spacing: 1px;
         }
         .btn:hover {
-            background-color: #fff;
-            box-shadow: 0 0 15px #dfb76c;
+            background-color: #ffffff;
+            box-shadow: 0 0 15px rgba(139, 163, 199, 0.6);
         }
         /* Newsletter Section */
         .newsletter {
-            background-color: #24192a;
+            background-color: #05132d;
             padding: 40px;
             border-radius: 8px;
-            margin: 50px 0;
-            border: 1px dashed #F0C68A;
+            margin: 60px 0;
+            border: 1px dashed #1e3a6d;
         }
         /* Footer Links */
         .footer {
-            margin-top: 60px;
+            margin-top: 80px;
             padding-top: 20px;
-            border-top: 1px solid #3d2a45;
-            color: #8c7699;
+            border-top: 1px solid #14284f;
+            color: #5d7193;
             font-size: 0.9rem;
         }
         .social-links a {
-            color: #dfb76c;
+            color: #8ba3c7;
             text-decoration: none;
             margin: 0 10px;
             font-weight: bold;
+        }
+        .social-links a:hover {
+            color: #ffffff;
         }
     </style>
 </head>
 <body>
 
     <!-- 1. Hero Header Banner Section -->
-    <img src="header.png" alt="Katie Victoria Books Banner" class="banner">
+    <img src="header.jpg" alt="Katie Victoria Books Banner" class="banner">
 
     <div class="container">
-        <p class="tagline">Historical • Fantasy • Romantic Suspense • Contemporary Romance</p>
 
         <!-- 2. Books Section -->
         <h2>My Upcoming Releases</h2>
-        <p>Exciting romantic fiction, coming very soon to Kindle and Paperback.</p>
+        <p style="color: #a0aec0;">Exciting romantic fiction, coming very soon to Kindle and Paperback.</p>
         
         <div class="books-grid">
             <!-- Book 1 -->
@@ -139,24 +137,25 @@
         <!-- 3. Newsletter Section for Independence -->
         <div class="newsletter">
             <h3>Join the Inner Circle</h3>
-            <p>Be the first to know about new releases, exclusive cover reveals, and bonus romance content.</p>
-            <p><em>[Newsletter sign-up form box will go here!]</em></p>
+            <p style="color: #a0aec0;">Be the first to know about new releases, exclusive cover reveals, and bonus romance content.</p>
+            <p style="font-style: italic; color: #8ba3c7; margin-top: 20px;">[Newsletter sign-up form box will go here!]</p>
         </div>
 
         <!-- 4. About Author Section -->
         <h2>About Katie Victoria</h2>
-        <p>Welcome! I am a writer of romantic fiction weaving passionate tales across historical timelines, fantasy worlds, and contemporary settings. Based in England, I write stories filled with adventure, destiny, and love.</p>
+        <p style="line-height: 1.8; max-width: 750px; margin: 0 auto; color: #cbd5e1;">Welcome! I am a writer of romantic fiction weaving passionate tales across historical timelines, fantasy worlds, and contemporary settings. Based in England, I write stories filled with adventure, destiny, and love.</p>
 
         <!-- 5. Footer & Socials -->
         <div class="footer">
             <div class="social-links">
-                <a href="YOUR_FACEBOOK_URL_HERE" target="_blank">Facebook</a> | 
-                <a href="YOUR_INSTAGRAM_URL_HERE" target="_blank">Instagram</a>
+                <a href="#" target="_blank">Facebook</a> | 
+                <a href="#" target="_blank">Instagram</a>
             </div>
-            <p>&copy; 2026 Katie Victoria Books. All rights reserved.</p>
+            <p style="margin-top: 15px;">&copy; 2026 Katie Victoria Books. All rights reserved.</p>
         </div>
     </div>
 
 </body>
 </html>
+
 
